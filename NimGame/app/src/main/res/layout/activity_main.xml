@@ -1,0 +1,159 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/backrepeat"
+        tools:context=".MainActivity">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:src="@drawable/title"
+            android:layout_margin="10dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <ImageView
+                android:id="@+id/r1c1"
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_marginLeft="25dp"
+                android:src ="@drawable/match"/>
+            <Button
+                android:id="@+id/removeR1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remove"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="200dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/r2c1"
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_marginLeft="25dp"
+                android:src ="@drawable/match"/>
+
+            <ImageView
+                android:id="@+id/r2c2"
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_marginLeft="8dp"
+                android:src ="@drawable/match"/>
+
+            <ImageView
+                android:id="@+id/r2c3"
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_marginLeft="8dp"
+                android:src ="@drawable/match"/>
+
+            <Button
+                android:id="@+id/removeR2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remove"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="115dp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/r3c1"
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_marginLeft="25dp"
+                android:src ="@drawable/match"/>
+
+            <ImageView
+                android:id="@+id/r3c2"
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_marginLeft="8dp"
+                android:src ="@drawable/match"/>
+
+            <ImageView
+                android:id="@+id/r3c3"
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_marginLeft="8dp"
+                android:src ="@drawable/match"/>
+
+            <ImageView
+                android:id="@+id/r3c4"
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_marginLeft="8dp"
+                android:src ="@drawable/match"/>
+
+            <ImageView
+                android:id="@+id/r3c5"
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_marginLeft="8dp"
+                android:src ="@drawable/match"/>
+
+            <Button
+                android:id="@+id/removeR3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remove"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="30dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:background="@android:color/white"
+            android:alpha="0.95">
+
+            <TextView
+                android:id="@+id/turn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Player1's Turn"
+                android:layout_marginLeft="18dp"
+                android:layout_gravity="center_vertical"
+                android:textColor="#000000"
+                android:textSize="19dp"
+                android:textStyle="normal" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:text="Done"
+                android:id="@+id/done"
+                android:layout_gravity="center_vertical" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Reset"
+                android:id="@+id/reset"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
